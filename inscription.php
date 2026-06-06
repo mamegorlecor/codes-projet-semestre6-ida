@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             if ($resultat) {
                 $message = "<span style='color:green'>Inscription réussie !</span>";
-                header("Location:ajouterproduit.php");
+                header("Location:connexion.php");
             } else {
                 $message = "<span style='color:red'>L'inscription n'a pas abouti.</span>";
             }
