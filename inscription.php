@@ -43,7 +43,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             if ($resultat) {
                 $message = "<span style='color:green'>Inscription réussie !</span>";
-                header("Location: connexion.php");
+
+                header("Location:connexion.php");
             } else {
                 $message = "<span style='color:red'>L'inscription n'a pas abouti.</span>";
             }
@@ -88,7 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <span style="color:red"><?php echo $errors['ninea']; ?></span><br>
             <label for="justification">Vos documents(NINEA et CNI) :</label><br>
             <input type="file" name="justification" id="justification"><br>
-            <span style="color:red"><?php echo $errors['justification']; ?></span>
+            <span style="color:red"><?php echo $errors['justification']; ?></span><br>
+            <input type="submit" value="s'inscrire">
             </form>
             </body>
                 </html>
