@@ -1,5 +1,6 @@
 <?php 
-include('configsunu.php');
+include("configsunu.php");
+
 $message = "";
 
 $errors = [
@@ -42,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             if ($resultat) {
                 $message = "<span style='color:green'>Inscription réussie !</span>";
-                header("Location:ajouterproduit.php");
+                header("Location: connexion.php");
             } else {
                 $message = "<span style='color:red'>L'inscription n'a pas abouti.</span>";
             }
@@ -54,7 +55,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $message = "<span style='color:red'>Veuillez corriger les erreurs du formulaire.</span>";
     }
 }  
-
 ?>
 <!DOCTYPE html>
 <html lang="fr">
