@@ -28,6 +28,8 @@
             <button type="submit" class="btn-valider">Valider</button>
         </form>
     </div>
+
+    <a href="logout.php" class="link-deconnexion">Déconnexion</a>
 </div>
 
 </body>
