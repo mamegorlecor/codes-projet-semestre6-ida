@@ -60,7 +60,7 @@ catch(PDOException $e){
             Les produits que vous ajoutez ne sont pas directement ajouter <br>dans votre page,il est fondementale pour nous d’analyser les <br>produits et vérifier qu’il est légal de les vendre
         </p>
         
-        <form  method ="POST" id="form" enctype="multipart/form-data">
+        <form  action="ajouterproduit.php" method ="POST">
             <label for="nom">Nom entreprise ou artisan :</label><br>
             <input type="text" name="nom" id="nom"><br>
             <span style="color:red"><?php echo $errors['nom']; ?></span><br>
