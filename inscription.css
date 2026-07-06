@@ -1,0 +1,152 @@
+@media (min-width: 768px) {
+  
+  .critere {
+    margin-top: 200px;
+    margin-left: 250px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .listcritere {
+    margin-top: 20px; 
+    margin-left: 160px;
+    padding: 10px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .p2 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .critere p, .critere .p1 {
+    margin-top: 20px;
+    font-weight: normal;
+  }
+
+  .critere li {
+    margin-top: 10px;
+    font-weight: normal;
+  }
+
+  .containeur-formulaire {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .containeur-formulaire input {
+    width: 100%; 
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0 10px;
+    box-sizing: border-box; 
+  }
+
+  .containeur-formulaire input[type="submit"] {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .containeur-formulaire input[type="submit"]:hover{
+    background-color: #C07A1E;
+  }
+
+  
+  .containeur-formulaire input:hover {
+    background-color: #f0f0f0; 
+  }
+
+  .containeur-formulaire label {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .lienconnexion a{
+    margin-left: 675px;
+    color: #C07A1E;
+    font-size: 17px;
+
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .critere {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .critere p, .critere .p1 {
+    margin-top: 15px;
+    font-weight: normal;
+  }
+
+  .listcritere {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .p2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .containeur-formulaire {
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .containeur-formulaire input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .containeur-formulaire input[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .containeur-formulaire input[type="submit"]:hover {
+    background-color: #C07A1E;
+  }
+
+  .containeur-formulaire input:hover {
+    background-color: #f0f0f0;
+  }
+
+  .containeur-formulaire label {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+  }
+  .lienconnexion{
+    margin-left: 175px;
+    color: #C07A1E;
+    font-size: 15px;
+  }
+
+  }
