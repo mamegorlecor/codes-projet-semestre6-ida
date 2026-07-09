@@ -1,4 +1,4 @@
-<?php 
+git commit -m "premier commit"<?php 
 $server="localhost";
 $user="root";
 $pass="";

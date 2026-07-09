@@ -1,0 +1,37 @@
+<?php
+session_start();
+
+// Si l'utilisateur clique sur Déconnexion
+if (isset($_GET['deconnexion'])) {
+
+    // Vider la session
+    session_unset();
+
+    // Détruire la session
+    session_destroy();
+
+    //a Redirection vers la page de connexion
+    header("Location: connexion.php");
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+</head>
+<body>
+
+<h2>Bienvenue sur votre espace</h2>
+
+<p>Vous êtes connecté.</p>
+
+<!-- Bouton Déconnexion -->
+<a href="?deconnexion=1">
+    <button>Déconnexion</button>
+</a>
+
+</body>
+</html>
