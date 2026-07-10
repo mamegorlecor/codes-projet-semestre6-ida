@@ -46,7 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                 header("Location:connexion.php");
             } else {
-                $message = "<span style='color:red'>L'inscription n'a pas abouti.</span>";
+                $message = "<div class='alert alert-success' style='color: green; font-weight: bold; background-color: #d4edda; border-color: #c3e6cb; padding: 15px; border-radius: 10px; text-align: center;'>
+                                Inscription réussie ! Votre candidature a bien été reçue et sera bientôt traitée par nos équipes. Vous allez être redirigé...
+                            </div>";
             }
         } catch (PDOException $e) {
             
